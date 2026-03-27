@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class OrderServiceApplication {
 	@GetMapping("/")
 	public String hello() {
-		System.out.println("OrderService:[test]");
-		return "OrderService:[test]";
+		System.out.println("OrderService:[test01]");
+		return "OrderService:[test01]";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(OrderServiceApplication.class, args);
